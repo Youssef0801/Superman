@@ -92,7 +92,6 @@ header h1 {
     background-color: rgb(4, 75, 122);
 
 }
-h3,
 button{
     text-align: center;
     padding: 1.5rem;
@@ -101,7 +100,15 @@ button{
     width: 20rem;
     border-radius: .4rem;
 }
-
+h3{
+    font-family: 'lobster';
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
 nav h2, section h2{
     position: sticky;
     top: 0;
@@ -117,10 +124,20 @@ nav ol{
     padding-left: 4rem;
     list-style-type: decimal;
 }
-
-section p{
+nav p{
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+section nav p{
     margin: 1rem;
     text-align: justify;
+    text-align: center;
+    padding: 2rem;
+    font-weight: normal;
     
 }
  section ul li {
@@ -150,6 +167,22 @@ section p{
     justify-content: center;
     
 }
+
+section nav{
+    text-align: center;
+}
+footer{
+    background-color: var(--color-list);
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+.block{
+    max-width: 80rem;
+    margin: 0.5rem auto 0rem;
+    padding: 0rem;
+}
 .search{
     border: 1px solid black;
     background-color: blue;
@@ -175,19 +208,4 @@ section p{
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 0.5rem;
     margin: 0.25rem;
-}
-section nav{
-    text-align: center;
-}
-footer{
-    background-color: var(--color-list);
-}
-footer p{
-    text-align: center;
-    color: #fff;
-}
-.block{
-    max-width: 80rem;
-    margin: 0.5rem auto 0rem;
-    padding: 0rem;
 }
