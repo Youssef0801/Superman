@@ -171,8 +171,14 @@ section nav p{
 section nav{
     text-align: center;
 }
-footer{
-    background-color: var(--color-list);
+footer
+{
+     background-color: gray;
+     text-align: center;
+     max-width: 90rem;
+     padding: 1rem;
+     margin: 0.5rem auto ;
+
 }
 footer p{
     text-align: center;
