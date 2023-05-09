@@ -183,7 +183,7 @@ footer p{
     margin: 0.5rem auto 0rem;
     padding: 0rem;
 }
-.search{
+button.search{
     border: 1px solid black;
     background-color: blue;
     color: #fff;
@@ -191,7 +191,7 @@ footer p{
     border-radius: 0.5rem;
     margin: 0.25rem;
 }
-.drop{
+button.drop{
     border: 1px solid black;
     background-color: rgb(236, 68, 68);
     color: #fff;
@@ -200,7 +200,7 @@ footer p{
     border-radius: 0.5rem;
     margin: 0.25rem;
 }
-.add{
+button.add{
     border: 1px solid black;
     background-color: green;
     color: #fff;
